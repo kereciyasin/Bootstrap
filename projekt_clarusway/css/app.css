@@ -19,24 +19,34 @@
   max-height: calc(100vh - 88px);
 }
 
-.carousel-caption h5{
+.carousel-caption h5 {
   color: var(--red);
   font-size: 2.4rem;
   text-shadow: 3px 3px 3px black;
 }
-.carousel-caption p{
+.carousel-caption p {
   text-shadow: 3px 3px 3px black;
   font-weight: 600;
 }
 
-.carousel-caption .btn{
+.carousel-caption .btn {
   width: 7rem;
 }
 
-.carousel-caption{
+.carousel-caption {
   bottom: 5rem;
 }
 
+.carousel-indicators {
+  gap: 0.7rem;
+}
+
+/*? bootstrap tarafindan verilmis stilleri ezmek icin !important kullanilir.  */
+.carousel-indicators button{
+  background-color: var(--red) !important;
+  height: 0.4rem !important;
+  width: 3rem !important;
+  }
 /*!---- 3- About Section   -*/
 
 /*!---- 4- Instructors -----*/
