@@ -47,15 +47,23 @@
   height: 0.4rem !important;
   width: 3rem !important;
   }
-/*!---- 3- About Section   -*/
 
 /*!---- 4- Instructors -----*/
-section#instructors .card{
+section#instructors .card {
   transition:transform 0.3s;
+  cursor: pointer;
 }
-section#instructors .card:hover{
+section#instructors .card:hover {
   
 transform: scale(1.03);
+}
+
+section#instructors i {
+  transition: opacity 0.6s;
+}
+
+section#instructors i:hover{
+  opacity: 0.5;
 }
 
 /*!---- 4- Students Section-*/
