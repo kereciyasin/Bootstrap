@@ -50,6 +50,9 @@
 /*!---- 3- About Section   -*/
 
 /*!---- 4- Instructors -----*/
+section#instructors .card:hover{
+transform: scale(1.03);
+}
 
 /*!---- 4- Students Section-*/
 
