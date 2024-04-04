@@ -50,7 +50,11 @@
 /*!---- 3- About Section   -*/
 
 /*!---- 4- Instructors -----*/
+section#instructors .card{
+  transition:transform 0.3s;
+}
 section#instructors .card:hover{
+  
 transform: scale(1.03);
 }
 
