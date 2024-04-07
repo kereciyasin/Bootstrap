@@ -512,7 +512,7 @@
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
             delectus expedita accusamus magni dignissimos commodi.
           </p>
-          <div class="row g-3">
+          <div class="row g-3 mt-3">
             <div class="col-md-4">
               <i class="fas fa-phone fa-2x text-danger"></i>
               <h5>Telephone</h5>
@@ -531,21 +531,41 @@
           </div>
           <form class="row g-3">
             <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail4" />
-            </div>
-            <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">Password</label>
-              <input type="password" class="form-control" id="inputPassword4" />
-            </div>
-            <div class="col-12">
-              <label for="inputAddress" class="form-label">Address</label>
               <input
                 type="text"
                 class="form-control"
-                id="inputAddress"
-                placeholder="1234 Main St"
+                id="name"
+                placeholder="Enter name"
               />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter email"
+              />
+            </div>
+            <div class="col-12">
+              <input
+                type="text"
+                class="form-control"
+                id="subject"
+                placeholder="Enter Subject"
+              />
+            </div>
+            <div class="col-12">
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Enter your comment"
+                  id="floatingTextarea"
+                ></textarea>
+                <label for="floatingTextarea">Enter your comment</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-danger px-5">Submit</button>
             </div>
           </form>
         </article>
