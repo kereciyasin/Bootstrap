@@ -79,3 +79,11 @@ section#instructors i:hover{
 /*!---- 6- Contact Section -*/
 
 /*!---- 7- Footer ----     -*/
+footer i{
+    margin-right: 0.8rem;
+    transition: color 1s;
+    cursor: pointer;
+}
+footer i:hover{
+  color: var(--red);
+}
