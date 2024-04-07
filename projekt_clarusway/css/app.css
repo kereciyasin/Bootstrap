@@ -66,6 +66,12 @@ section#instructors i:hover{
   opacity: 0.5;
 }
 
+.nav-pills .nav-link.active{
+  background-color: var(--red);
+}
+.nav-pills .nav-link{
+  color: white;
+}
 /*!---- 4- Students Section-*/
 
 /*!---- 5- Courses Section -*/
